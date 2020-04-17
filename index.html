@@ -1,4 +1,29 @@
 <!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
 <!--
 	Photon by HTML5 UP
 	html5up.net | @ajlkn
@@ -36,10 +61,18 @@
 							<header class="major">
 								<h2>Medium Blogs</h2>
 							</header>
-							<blockquote class="embedly-card"><h4><a href="https://medium.com/@numank/3-things-that-popular-tv-shows-tell-about-you-4a018ec4f037">3 Things That Popular TV Shows Tell About You</a></h4><p>Did you see the ending to Game of Thrones Season 8? Did it live up to the hype? Or did you feel unsatisfied? No matter if you're a fan of Game of Thrones or not, many popular TV shows have large fan...</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-<blockquote class="embedly-card"><h4><a href="https://medium.com/@numank/3-ways-the-software-engineering-interview-process-fails-college-students-and-the-software-industry-ab3c6f3b6fdc">3 Ways the Software Engineering Interview Process Fails College Students and the Software Industry</a></h4><p>The dreaded Software Engineering (SWE) interview season is a time of joy and pain for students, but in reality it's hurting both students and recruiters. Here's a quick background on how SWE recruiting season works.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+							<div class="row">
+							  <div class="column">
+									<blockquote class="embedly-card"><h4><a href="https://medium.com/@numank/3-things-that-popular-tv-shows-tell-about-you-4a018ec4f037">3 Things That Popular TV Shows Tell About You</a></h4><p>Did you see the ending to Game of Thrones Season 8? Did it live up to the hype? Or did you feel unsatisfied? No matter if you're a fan of Game of Thrones or not, many popular TV shows have large fan...</p></blockquote>
+									<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+							  </div>
+							  <div class="column">
+									<blockquote class="embedly-card"><h4><a href="https://medium.com/@numank/3-ways-the-software-engineering-interview-process-fails-college-students-and-the-software-industry-ab3c6f3b6fdc">3 Ways the Software Engineering Interview Process Fails College Students and the Software Industry</a></h4><p>The dreaded Software Engineering (SWE) interview season is a time of joy and pain for students, but in reality it's hurting both students and recruiters. Here's a quick background on how SWE recruiting season works.</p></blockquote>
+									<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+							  </div>
+							</div>
+
+
 							<!-- <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p> -->
 						</div>
 						<!-- <div class="col-6 col-12-medium imp-medium">
