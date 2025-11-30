@@ -1,227 +1,157 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.img_container{
-    width:100px;
-    height:100px;
-    position:relative;
-    background:red;
-}
-
-.img_container2{
-    width:100px;
-    height:50px;
-    position:relative;
-    background:blue;
-}
-
-.icon-play-circle{
-    position:absolute;
-    top:45%;
-    left:45%;
-    color: white;
-}
-</style>
+  <meta charset="UTF-8" />
+  <title>Your Name | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<!--
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Numan's ENGL 3844 Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<span class="icon solid major fa-cloud"></span>
-					<h1>Hi, I'm <strong>Numan Khan</strong>, a senior <br />
-					studying Computer Science at Virginia Tech</h1>
-					<p>Here are some of the projects that I worked on in my <br />
-					 Writing and Digital Media class this semester</p>
-					<ul class="actions special">
-						<li><a href="#one" class="button scrolly">Start Here</a></li>
-					</ul>
-				</div>
-			</section>
-
-      <!-- One -->
-      <section id="one" class="main style1">
-
-        <div class="container">
-			<!-- <header class="major">
-				<h1><b>Medium Blogs</b></h1>
-			</header> -->
-          <div class="row gtr-150">
-            <div class="col-6 col-12-medium imp-medium">
-              <!-- <span class="image fit"><img src="images/pic01.jpg" alt="" /></span> -->
-              <span class="image fit">
-                <p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" src="https://live.staticflickr.com/4639/39435522962_1a143b842d_b.jpg" alt="classes and subclasses [Day 3289]"><a href="https://www.flickr.com/photos/76281306@N00/39435522962">"classes and subclasses [Day 3289]"</a><span> by <a href="https://www.flickr.com/photos/76281306@N00">brianjmatis</a></span> is licensed under <a href="null?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a>
-              </span>
-
-            </div>
-            <div class="col-6 col-12-medium">
-              <header class="major">
-                <h2><a href="https://medium.com/@numank/3-ways-the-software-engineering-interview-process-fails-college-students-and-the-software-industry-ab3c6f3b6fdc" target="_blank">3 Ways the Software Engineering Interview Process Fails College Students and the Software Industry</a></h2>
-
-              </header>
-              <p>
-                Software engineering is a popular career track in the present day
-      				  with a very unique interview process. But are these interview
-      				  processes effective at evaluating college students? How can software companies
-                improve the interview process? How can colleges better prepare students for these
-                interview processes?
-				       </p>
-            </div>
-
-          </div>
+  <div class="scanlines"></div>
+  <div class="crt">
+    <header class="header">
+      <div class="title-bar">
+        <span class="title-dot red"></span>
+        <span class="title-dot yellow"></span>
+        <span class="title-dot green"></span>
+        <span class="title-text">PORTFOLIO.EXE - TERMINAL</span>
+      </div>
+      <div class="intro">
+        <div class="prompt-line">
+          <span class="prompt">visitor@portfolio:~$</span>
+          <span id="typewriter" class="command">
+            ./run_profile
+          </span>
+          <span class="cursor">█</span>
         </div>
-        <div class="container">
+        <p class="tagline">
+          Software Engineer · Backend / Data · Cloud · Retro Aesthetic Enthusiast
+        </p>
+      </div>
+    </header>
 
-          <div class="row gtr-150">
-            <div class="col-6 col-12-medium">
-              <header class="major">
-                <h2><a href="https://medium.com/@numank/3-things-that-popular-tv-shows-tell-about-you-4a018ec4f037" target="_blank">Hidden Philosophical Meanings In 3 Popular Drama and Sci-Fi TV Shows</a></h2>
-              </header>
-              <p>
-                I know many can relate to the feeling of analyzing the smallest details of your favorite shows.
-                You can often end up discovering a hidden theme or easter egg that can lead to some interesting
-                discussions with your best friends. Three drama/sci-fi shows that I feel this way about are
-                Mr.Robot, Westworld, and Altered Carbon.
-              </p>
-            </div>
-            <div class="col-6 col-12-medium imp-medium">
-              <span class="image fit">
-                <p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" src="https://live.staticflickr.com/3529/3879454285_795d1a27b1_b.jpg" alt="DSC_5957"><a href="https://www.flickr.com/photos/39647236@N07/3879454285">"DSC_5957"</a><span> by <a href="https://www.flickr.com/photos/39647236@N07">slamto</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a>
-              </span>
-
-            </div>
-          </div>
-        </div>
-
+    <main class="main">
+      <section class="panel">
+        <h2>> whoami</h2>
+        <p>
+          Hey, I'm <span class="highlight">Your Name</span>, a software engineer who likes
+          building scalable backend systems, data pipelines, and APIs.
+        </p>
+        <p>
+          I mainly work with <span class="highlight">Java</span>, <span class="highlight">Go</span>,
+          and <span class="highlight">TypeScript</span> on <span class="highlight">AWS</span>.
+        </p>
       </section>
 
-
-
-
-		<!-- Two -->
-			<section id="two" class="main style2">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<ul class="major-icons">
-								<!-- <li><span class="icon solid style1 major fa-code"></span></li> -->
-								<!-- <li><span class="icon solid style2 major fa-bolt"></span></li> -->
-								<!-- <li><span class="icon solid style3 major fa-camera-retro"></span></li> -->
-								<!-- <li><span class="icon solid style4 major fa-cog"></span></li>
-								<li><span class="icon solid style5 major fa-desktop"></span></li>
-								<li><span class="icon solid style6 major fa-calendar"></span></li> -->
-								<li><i class="fab fa-steam fa-6x"></i></li>
-								<li><i class="fas fa-gamepad fa-6x"></i></li>
-								<li><i class="fab fa-playstation fa-6x"></i></li>
-								<li><i class="fab fa-xbox fa-6x"></i></li>
-              </ul>
-						</div>
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2><a href="https://soundcloud.com/user-892170295-3005879/lyrebirds-podcast" target="_blank">The Impact of the Coronavirus on the Gaming Industry</a></h2>
-							</header>
-							<p>
-                For the podcast project, my team's podcast discussed recent news within the gaming industry in light of Covid-19.
-                The range of topics we talked about are World Health Organization's indecisiveness on
-                whether video games are good for people, next generation of console gaming, and the new Animal Crossing game
-                that was released on the Nintendo Switch.
-              </p>
-              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/795394864&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-892170295-3005879" title="reidca2" target="_blank" style="color: #cccccc; text-decoration: none;">reidca2</a> · <a href="https://soundcloud.com/user-892170295-3005879/lyrebirds-podcast" title="Lyrebirds Podcast" target="_blank" style="color: #cccccc; text-decoration: none;">Lyrebirds Podcast</a></div>
-            </br>
-              <p>
-                <b>
-                  Given the topic of the podcast relating to the Coronavirus, you can donate to INOVA
-                  (a non-profit health organization based in Falls Church, Virginia) at this
-                  <a href="https://support.inova.org/page/17658/donate/1?ea.tracking.id=website&_ga=2.10319351.3372554.1588785710-221321357.1588785710">
-                    link</a>
-                </b>
-              </p>
-            </div>
-					</div>
-				</div>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2><a href="https://youtu.be/C2TUTBsSJis" target="_blank">Build a News Dashboard With React JS</a></h2>
-					</header>
-          <p>
-              News outlets are generating an overwhelming amount of COVID-19 coverage. You can make
-              your own custom news dashboard using the tutorial below which steps through the process on how to
-              create a basic web application with News API and React.
-          </p>
+      <section class="panel">
+        <h2>> skills</h2>
+        <div class="grid">
           <div>
-          <iframe width="500" height="275" src="https://www.youtube.com/embed/C2TUTBsSJis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>[ Languages ]</h3>
+            <ul>
+              <li>Java, Go, TypeScript/JavaScript, Python, SQL</li>
+            </ul>
           </div>
-          <br/>
+          <div>
+            <h3>[ Backend / Data ]</h3>
+            <ul>
+              <li>PostgreSQL, MySQL, Kafka, REST, GraphQL</li>
+            </ul>
+          </div>
+          <div>
+            <h3>[ Cloud / DevOps ]</h3>
+            <ul>
+              <li>AWS (Lambda, ECS, S3, RDS), Docker, CI/CD</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>> projects</h2>
+
+        <div class="project">
+          <h3>01. Real-time Stock Alert System</h3>
           <p>
-            <b>
-              If you're interested in continuing to learn about React,
-              here is an <a href="https://reactjs.org/tutorial/tutorial.html">Intro to React tutorial</a>
-            </b>
+            Multithreaded Java / RxJava service that monitors stock prices and sends alerts
+            based on user-defined rules.
           </p>
+          <p class="meta">
+            [ Java · RxJava · WebSockets · PostgreSQL ]
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/stock-alert" target="_blank">
+              &gt; view_source
+            </a>
+          </p>
+        </div>
 
-				</div>
-			</section>
+        <div class="project">
+          <h3>02. Hardware Events Ingestion Pipeline</h3>
+          <p>
+            Kafka → ECS Fargate → Aurora PostgreSQL pipeline handling millions of daily events
+            with idempotent upserts and monitoring.
+          </p>
+          <p class="meta">
+            [ Kafka · AWS ECS · Aurora · Java ]
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/hardware-events" target="_blank">
+              &gt; view_source
+            </a>
+          </p>
+        </div>
 
-		<!-- Footer -->
-			<section id="footer">
-				<!-- <ul class="icons">
-					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul> -->
-				<ul class="copyright">
-					<li>&copy; Numan Khan</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</section>
+        <div class="project">
+          <h3>03. Omni-Athlete Fitness Tracker</h3>
+          <p>
+            Web app aggregating Apple Health data, visualizing workouts and sleep, and
+            exposing APIs for custom analysis.
+          </p>
+          <p class="meta">
+            [ Next.js · TypeScript · Postgres · Apple Health ]
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/omni-athlete" target="_blank">
+              &gt; view_source
+            </a>
+          </p>
+        </div>
+      </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <section class="panel">
+        <h2>> contact</h2>
+        <p>
+          Want to chat about backend systems, data engineering, or running?
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">email:</span>
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+          </li>
+          <li>
+            <span class="label">github:</span>
+            <a href="https://github.com/yourusername" target="_blank">
+              github.com/yourusername
+            </a>
+          </li>
+          <li>
+            <span class="label">linkedin:</span>
+            <a href="https://www.linkedin.com/in/your-handle" target="_blank">
+              linkedin.com/in/your-handle
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-	</body>
+    <footer class="footer">
+      <span>© <span id="year"></span> Your Name</span>
+      <span class="sep">|</span>
+      <span>Made with &lt;3 and a CRT monitor</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
